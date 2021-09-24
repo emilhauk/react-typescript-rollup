@@ -1,0 +1,17 @@
+{
+  "extends": "@amedia/eslint-config-typescript/tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "noImplicitAny": true,
+    "declaration": true,
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "lib": [
+      "DOM"
+    ],
+    "module": "ES2020",
+    "jsx": "react-jsx"
+  }
+}
